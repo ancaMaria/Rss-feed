@@ -671,7 +671,8 @@ public class FeedsActivity extends ActionBarActivity implements IOnTaskCompleted
         }
     }
 
-    /*test comment*/
+    /*tesssssssst git commit */
+
 
     /* check if current category equals the last category of the provider */
     private boolean isLastCategory() {
