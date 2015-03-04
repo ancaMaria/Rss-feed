@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:id="@+id/image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/category_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/letter"
+        android:text="T"
+        android:gravity="center"
+        android:layout_alignBottom="@id/category_icon"
+        android:layout_alignTop="@id/category_icon"
+        android:layout_alignLeft="@id/category_icon"
+        android:layout_alignRight="@id/category_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:layout_toRightOf="@id/image_icon"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/category_icon"
+        android:text="Title"/>
+
+    <!--<TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/category_icon"
+        android:layout_below="@id/title"
+        android:text="Description"/>-->
+
+    <TextView
+        android:id="@+id/pub_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/category_icon"
+        android:layout_below="@id/title"
+        android:text="Publish date"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

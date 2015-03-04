@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/feedImage"
+        android:src="@drawable/fish"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/categoryLabel"
+        android:background="@color/pink_200"
+        android:text="Category Name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/feed_title"
+        android:layout_gravity="left"
+        style="@style/description_text"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/feed_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/feed_description"
+        android:layout_gravity="left"
+        style="@style/description_text"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/feed_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+   <!-- <Button
+        android:id="@+id/shareButton"
+        android:text="Share"
+        android:layout_width="wrap_content"
+        android:ems="6"
+        android:layout_gravity="center"
+        android:layout_height="48dp"/>-->
+
+</LinearLayout>

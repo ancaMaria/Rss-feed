@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Great News</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sync"></string>
+    <string name="action_share">Share</string>
+    <string name="action_drawer">Settings</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_all_categories">All Categories</string>
+    <string name="feed_description">Feed Description</string>
+    <string name="feed_title">Feed Title</string>
+    <string name="opened_drawer">Opened</string>
+    <string name="closed_drawer">Closed</string>
+    <string name="drawer_categories">Browse Categories</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="rowItemText">Row Item</string>
+    <string name="title_activity_feeds">News</string>
+    <string name="title_activity_categories_pager">CategoriesPager</string>
+    <string name="headerText">Providers</string>
+    <string name="slogan">Slogan</string>
+
+</resources>

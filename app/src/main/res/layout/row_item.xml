@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="104dp">
+
+    <ImageView
+        android:id="@+id/enclosure"
+        android:paddingLeft="16dp"
+        android:layout_width="104dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat"
+        android:layout_height="104dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/enclosure"
+        android:paddingLeft="12dp"
+        android:gravity="center_vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="104dp">
+
+    <TextView
+        android:id="@+id/feedTitle"
+        android:paddingTop="4dp"
+        style="@style/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_icon"
+        android:ems="10"
+        android:textSize="16sp"
+        android:text="Feed Title"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:layout_toRightOf="@id/image_icon"
+        android:layout_below="@id/title"
+        android:ems="10"
+        style="@style/regular_text"
+        android:text="Content Here"/>
+
+    <TextView
+        android:id="@+id/publish_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:paddingTop="4dp"
+        android:textSize="12sp"
+        android:layout_toRightOf="@id/image_icon"
+        android:text=" 1 hour ago"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
