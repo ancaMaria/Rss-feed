@@ -671,6 +671,8 @@ public class FeedsActivity extends ActionBarActivity implements IOnTaskCompleted
         }
     }
 
+    /*test comment*/
+
     /* check if current category equals the last category of the provider */
     private boolean isLastCategory() {
         Set set = mCurrentProvider.getCategoryObjects().keySet();
