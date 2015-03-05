@@ -629,6 +629,8 @@ public class FeedsActivity extends ActionBarActivity implements IOnTaskCompleted
         executeServices();
     }
 
+    /*   tesssssssstt change  */
+
     /*  update the main content list view with the returned items
      * save them to DB */
     @Override
